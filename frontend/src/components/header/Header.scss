@@ -1,0 +1,49 @@
+
+// #044D29
+nav{
+    height :2rem;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 30px rgba(0,0,0,0.229);
+    background-color: white;
+    >div{
+        display: flex;
+        align-items: center;
+        >a{
+            margin:0 2rem;
+            color: #044D29;
+            transition: color 0.3s;
+            font-size: 2rem;
+            font-weight: bold;
+            text-decoration: none;
+            &:hover{
+                color: #044D29;
+            }
+        }
+       >img{
+        width: auto;
+        height: 6rem;
+       }
+       >button{
+        width: auto;
+        height: 3rem;
+        font-size: 1.5rem;
+        border-radius: 1rem;
+        padding: 8px 18px 8px 18px;
+        color: white;
+        background-color: #044D29;
+        font-weight: bold;  
+    }
+    }
+}
+@media screen and (max-width:600px) {
+    nav{
+        padding : 1rem;
+        >div>a{
+            margin: 0 0.5rem;
+        }
+    }
+    
+}
