@@ -1,0 +1,181 @@
+.banner-1{
+    min-height: 80vh;
+    >img{
+        min-height: 80vh;
+        width: 98vw;
+    }
+}
+
+.banner-2{
+    display: flex;
+    flex-direction: column;
+    .heading{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+       
+        >strong{
+            font-size: 3rem;
+        }
+        >p{
+            padding: 1rem;
+            font-size: larger;
+            font-weight: 800;
+        }
+    }
+    .image-3{
+        margin: 2rem;
+        display: flex;
+    } 
+}
+.banner-3{
+    
+    >img{
+        margin-left: 2rem;
+        max-height: 90vh;
+    }
+    display: flex;
+    min-height: 80vh;
+    >div>div{
+        
+        >h1{
+            font-size: 3rem;
+            padding: 1rem;
+            color: #044D29;
+            font-weight: bold;
+
+        }
+        >strong{
+            font-size: 5rem;
+            padding: 1rem;
+            margin: 1rem;
+        }
+        >p{
+            margin-top: 2rem;
+            font-size: 2rem;
+            font-weight: 200;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    }
+
+    .icon{
+        
+        display: flex;
+        >img{
+            height: 20rem;
+        }
+    }
+}
+.banner-4{
+    
+    min-height: 80vh;
+    display: flex;
+    .info{
+        >strong{
+            font-size: 4rem;
+            margin: 2rem;   
+        }
+        >p{
+            font-size: 2rem;
+            margin-left: 2rem;
+            margin-top: 2rem;
+            font-weight: 800;
+        }
+    }
+    .scan_img{
+        padding: 1rem 1rem 1rem 1rem;
+        margin: 2rem 8rem 2rem 2rem;
+    }
+}
+.contact{
+    margin-top: 5rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: auto;
+        .container-1{
+            border: 5px solid grey;
+            border-radius: 2rem;
+            >h1{
+                text-align: center;
+                margin-top: 1rem;
+                
+            }
+            >div{
+                
+                display: flex;
+                padding: 5rem 5rem 5rem 5rem;
+                align-items: center;
+                >div{
+                    margin-left: 2rem;
+                    
+                    display: flex;
+                    flex-direction: column;
+                    padding: 3rem 3rem 3rem 3rem;
+                    >h4{
+                        font-weight: 600;
+                        font-size: 2rem;
+                    }
+                    >p{
+                        font-size: 1.5rem;
+                        padding: 5px 5px 5px 5px;
+                        margin: 5px 5px 5px 5px;
+                    }
+                    >input{
+                        font-size: 1rem;
+                        padding: 5px 5px 5px 5px;
+                        margin: 5px 5px 5px 5px;
+                        border: 5px solid #044D29;
+                        border-radius: 4px;
+                        
+                    }
+                    >button{
+                        font-size: 1rem;
+                        padding: 8px 5px 8px 5px;
+                        margin: 8px 8px;
+                        border-radius: 3px;
+                        color: white;
+                        background-color: #044D29;
+                        font-weight: 600;
+                    }
+                    >textarea{
+                        border: 5px solid #044D29;
+                        border-radius: 4px;
+                    }
+                }
+                .container-4{
+                    
+                    margin-left: 8rem;
+                    justify-self: left;
+                    align-items: self-start;
+                    .mail{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        >img{
+                            justify-content: center;
+                            height: 4rem;
+                        }
+                    }
+                    .phone{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        >img{
+                            justify-content: center;
+                            height: 4rem;
+                        }
+                    }
+                    .location{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        >img{
+                            justify-content: center;
+                            height: 4rem;
+                        }
+                    }
+                }
+            }
+        }
+}

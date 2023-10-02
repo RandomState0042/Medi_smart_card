@@ -4,12 +4,15 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Header from './components/header/Header';
+import { Home } from './components/home/Home';
 
+// style sheets
 import './components/header/Header.scss'
+import './components/home/Home.scss'
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <Header/>,
+    element: <><Header/><Home/></>,
   },
 ]);
 
